@@ -1,30 +1,52 @@
+import DataImage from "./data";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde culpa
-        repudiandae quas? Eos, velit et? Accusantium ullam quae nobis magnam ex,
-        enim, odio praesentium reprehenderit rem mollitia officia, aut inventore
-        saepe exercitationem eveniet? In sequi nostrum officiis reprehenderit
-        laborum explicabo distinctio laudantium dolores ipsa maxime animi
-        voluptatibus velit perspiciatis aliquam nesciunt culpa, eaque dolor
-        repellendus dolore consequatur obcaecati, cum mollitia expedita! Quae
-        qui laborum esse quas ea vel ab natus consectetur provident rerum,
-        tempore veniam sequi recusandae veritatis porro necessitatibus. Facilis
-        aut placeat, deleniti sequi assumenda nesciunt, mollitia aperiam veniam
-        pariatur velit tempora distinctio labore porro voluptate. Laborum unde
-        architecto libero dolorum asperiores tempore eius saepe, reprehenderit
-        beatae quod cupiditate soluta at dolore debitis sed, modi sit laudantium
-        consequuntur blanditiis inventore. Recusandae earum iste obcaecati
-        explicabo quis, eaque natus odio autem nemo corrupti optio voluptates
-        harum eius quae deleniti qui nam! Illum optio unde, libero non aliquam
-        maxime quos delectus cupiditate consequatur veniam ullam et voluptas
-        tempore dolores sint dolor blanditiis minus itaque recusandae iusto?
-        Molestias odit id iste exercitationem! Ducimus, est nostrum! Error
-        dolorem molestias praesentium animi quam ut. Ipsam itaque totam amet
-        omnis, quidem soluta deserunt at culpa consequatur voluptatum impedit
-        voluptas iste laborum quam nulla sequi obcaecati?
-      </h1>
+      <div className="hero grid grid-cols-2">
+        <div>
+          <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
+            <img
+              src={DataImage.HeroImage}
+              alt="Hero Image"
+              className="w-10 rounded-md"
+            />
+            <q>Kode yang indah, yang lahir dari ketekunan. 👨‍💻</q>
+          </div>
+          <h1 className="text-5xl/tight font-bold mb-6">Hi, saya Ren</h1>
+          <p className="text-base/loose mb-6 opacity-80">
+            Saya adalah individu dengan pengalaman dalam beberapa proyek sebagai
+            Web Developer dan Quality Control. Terbiasa memahami kebutuhan
+            sistem, memastikan fungsionalitas berjalan baik, dan berkontribusi
+            dalam proses pengembangan aplikasi. Dengan rasa ingin tahu yang
+            tinggi, semangat belajar yang kuat, serta kecintaan pada dunia
+            software development sebagai hobi maupun profesi, saya siap
+            melangkah lebih jauh sebagai System Analyst yang menjembatani
+            kebutuhan bisnis dan solusi teknis. Saya percaya bahwa sistem yang
+            baik lahir dari pemahaman yang mendalam terhadap kebutuhan pengguna,
+            komunikasi yang jelas, dan perhatian pada detail.
+          </p>
+          <div className="flex items-center gap-4">
+            <a
+              href="#"
+              className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
+            >
+              Download CV <i className="ri-download-2-line"></i>
+            </a>
+            <a
+              href="#"
+              className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
+            >
+              View Project <i className="ri-eye-line"></i>
+            </a>
+          </div>
+        </div>
+        <img
+          src={DataImage.HeroImage}
+          alt="Hero Image"
+          className="w-[500px] ml-auto"
+        />
+      </div>
     </>
   );
 }
