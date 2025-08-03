@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar.jsx";
 import "remixicon/fonts/remixicon.css";
 import AboutSection from "./components/AboutSection.jsx";
 import Tools from "./components/Tools.jsx";
+import Project from "./components/Project.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById("root")).render(
       <App />
       <AboutSection />
       <Tools />
+      <Project />
     </div>
   </StrictMode>
 );
