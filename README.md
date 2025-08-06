@@ -27,20 +27,20 @@ This project showcases personal projects, skills, and professional information i
 
 ## 📦 Installation
 
+## Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/stevanu/React-Portofolio.git
 ```
+## Navigate into the directory
 ```
-# Navigate into the directory
 cd React-Portofolio
 ```
+## Install dependencies
 ```
-# Install dependencies
 npm install
 ```
+## Start development server
 ```
-# Start development server
 npm run dev
 ```
 
