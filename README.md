@@ -30,15 +30,19 @@ This project showcases personal projects, skills, and professional information i
 ```bash
 # Clone the repository
 git clone https://github.com/stevanu/React-Portofolio.git
-
+```
+```
 # Navigate into the directory
 cd React-Portofolio
-
+```
+```
 # Install dependencies
 npm install
-
+```
+```
 # Start development server
 npm run dev
+```
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
