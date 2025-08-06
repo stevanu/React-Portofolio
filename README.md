@@ -5,7 +5,6 @@
 A modern and responsive portfolio website built using **React.js** and **Tailwind CSS**.  
 This project showcases personal projects, skills, and professional information in a sleek, minimalistic UI.
 
-![Preview](https://github.com/stevanu/React-Portofolio/assets/your-image-link-here)
 
 ---
 
