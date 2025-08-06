@@ -3,12 +3,13 @@ import React from "react";
 function AboutSection() {
   return (
     <>
-      <div className="About mt-32 py-10">
+      <div className="About mt-32 py-10" id="About">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
           <img
             src="/assets/hero-img.webp"
             alt=""
             className="w-12 rounded-mb mb-10 sm:hidden"
+            loading="lazy"
           />
           <p className="text-base/loose mb-10">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt

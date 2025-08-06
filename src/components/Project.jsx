@@ -3,18 +3,18 @@ import { listProyek } from "../data";
 
 function Project() {
   return (
-    <div className="project mt-32 py-10">
+    <div className="project mt-32 py-10" id="Project">
       <h1 className="text-center text-4xl font-bold mb-2 ">Project</h1>
       <p className="text-base/loose text-center opacity-50">
         Below are some of the projects I have made.
       </p>
-      <div className="project-box mt-14 grid lg:grid-cols-3 md:grid-cols-2 gap-5">
+      <div className="project-box mt-14 grid lg:grid-cols-3 md:grid-cols-2 gap-4">
         {listProyek.map((proyek) => (
           <div
             key={proyek.id}
             className="p-4 bg-zinc-800 rounded-md h-full flex flex-col justify-between"
           >
-            <img src={proyek.gambar} alt="Project Image" />
+            <img src={proyek.gambar} alt="Project Image" loading="lazy" />
 
             <div className="flex flex-col flex-grow">
               <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>

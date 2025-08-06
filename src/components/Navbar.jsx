@@ -41,7 +41,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="#"
+            href="#About"
             className="sm:text-lg text-base font-medium hover:text-violet-500 transition-all duration-200"
           >
             About
@@ -49,7 +49,15 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="#"
+            href="#Tools"
+            className="sm:text-lg text-base font-medium hover:text-violet-500 transition-all duration-200"
+          >
+            Tools
+          </a>
+        </li>
+        <li>
+          <a
+            href="#Project"
             className="sm:text-lg text-base font-medium hover:text-violet-500 transition-all duration-200"
           >
             Project
@@ -57,7 +65,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="#"
+            href="#Contact"
             className="sm:text-lg text-base font-medium hover:text-violet-500 transition-all duration-200"
           >
             Contact

@@ -3,9 +3,9 @@ import { listTools } from "../data";
 
 function Tools() {
   return (
-    <div className="tools mt-22 ">
+    <div className="tools mt-22" id="Tools">
       <div className="text-center flex flex-col items-center">
-        <h1 className="text-4xl/snug font bold mb-4">Tools Used</h1>
+        <h1 className="text-4xl/snug font bold mb-1">Tools Used</h1>
         <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50">
           These are some of the tools I use to build a website
         </p>
@@ -20,6 +20,7 @@ function Tools() {
               src={tool.gambar}
               alt="Tools Image"
               className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-800"
+              loading="lazy"
             />
             <div>
               <h4>{tool.nama}</h4>
